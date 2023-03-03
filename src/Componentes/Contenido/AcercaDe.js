@@ -6,9 +6,9 @@ function Sobremi(){
     return(
         <> <div className="contenedorMe">
                 <div id="me">                
-                    <h2>Acerca de mi</h2>
+                    <h2 className="titulo">ACERCA DE MI</h2>
                     <h3>MI PERFIL</h3>
-                    <p>
+                    <p className="letrasContenido">
                         Hola Soy Marco !<br></br>
                     Estudiante de ultimo ciclo de la escuela Profesional 
                     de ingenieria informatica y de sistemas,

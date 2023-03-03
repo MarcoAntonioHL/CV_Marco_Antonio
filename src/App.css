@@ -30,6 +30,7 @@ html{
   width: 100%;
   height: 1100px  ;
   background-image:url('../public/images/fondoInterio.jpeg');
+  background-attachment: fixed;
   position: absolute;
   filter:blur(5px) grayscale(90) contrast(0.8);
 }
@@ -38,6 +39,7 @@ html{
   width: 100%;
   height:1100px;
   background-image: url("../public/images/fondoInterior2.jpeg");
+  background-attachment: fixed;
   position: absolute;
   top: 1600px;
   filter: grayscale(10) contrast(0.8) blur(3px);
@@ -47,10 +49,8 @@ html{
   width: 100%;
   height: 1150px;
   background-image: url("../public/images/fondoInterio.jpeg");
+  background-attachment: fixed;
   position:absolute;
   top: 2700px;
   filter: blur(3px) grayscale(80) contrast(0.8); 
-}
-p{
-  color: whitesmoke;
 }

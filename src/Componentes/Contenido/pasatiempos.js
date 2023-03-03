@@ -4,10 +4,12 @@ function Pasatiempo(){
     return (
     <>
         <div id="tiempolibre"> 
-            <h2>PASATIEMPOS</h2>
-            <p>
-                Basketball,Football,Musica
-            </p>
+            <h2 className="titulo">PASATIEMPOS</h2>
+                <div className="letrasContenido">
+                    <p>
+                        Basketball,Football,Musica
+                    </p>
+                </div>
         </div>
     </>
     )

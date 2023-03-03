@@ -9,8 +9,8 @@ function Contactos(){
     <>
         <div className="contenedorContacto">
             <div id="contacto">
-                <h2>CONTACTOS</h2>
-                <div>
+                <h2 className="titulo">CONTACTOS</h2>
+                <div className="letrasContenido">
                     <p className="Correo">
                         {Datos.correo}
                     </p>

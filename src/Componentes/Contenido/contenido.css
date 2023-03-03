@@ -11,10 +11,25 @@
     justify-content: center;
     margin: 10%;
     margin-bottom: 10%;
+    
 }
 #experiencia ,#contacto,#aptitudes,#formacion{
     background-color:rgba(0, 0, 253, 0.2) ;
     width: 40%;
     padding: 10%;
+    
 }
 
+/*ESTILOS DE LETRAS*/
+.titulo{
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgba(101, 101, 238, 0.7);
+    -webkit-moz-font-feature-settings: "dlig","ss01";
+}
+.letrasContenido{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    color: azure;
+    font-size:20px ;
+    line-height:150%;
+}
