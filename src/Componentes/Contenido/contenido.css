@@ -1,0 +1,20 @@
+#me{
+    background-color:rgba(0, 0, 255, 0.287);
+    width: 40%;
+    padding:15%;
+    
+}
+
+
+.contenedorMe,.contenedorExperiencia, .contenedorAptitudes,.contenedorContacto,.contenedorFormacion{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+#experiencia ,#contacto,#aptitudes,#formacion{
+    background-color:rgba(0, 0, 253, 0.2) ;
+    width: 40%;
+    padding: 10%;
+}
+

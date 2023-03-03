@@ -1,0 +1,120 @@
+
+/**{
+    height: 100%;
+}*/
+#ContenedorPortada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.ImgCabecera{
+   height: 350px;
+}
+
+.me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+}
+.me img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(100%) contrast(120%);
+    /*box-shadow: 10px 15px 25px 0;*/
+    display: block;
+    /*transition: width 2s;*/
+    transition: width .3s cubic-bezier(0.645, 0.045, 0.355, 1),height .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.me:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+    width:200px;
+    height: 200px;
+}
+.FuenteCabecera{
+    font-family: 'Courier New', Courier, serif;
+    font-size: 2.5em;
+    color:white;
+} 
+
+p{
+    animation-duration: 3s;
+    animation-name:slidein ;
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.PiePagina{
+    height: 308px;
+}
+
+/*Foto Portada*/
+.Autor{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #888; 
+}
+
+.Autor:hover {
+    backface-visibility: hidden;
+    transform: scale(1.15, 1.15);
+    opacity: 0;
+    
+}
+
+
+/*Logos de enlace*/
+.Contactos{
+    position: relative ;
+    top: 180px;
+}
+
+.git,.fb,.insta,.whats{
+    width: 3%;
+    margin: 5%;
+    transition: width 1s;
+}
+.git:hover{
+    width: 4%;
+    color: rgb(200, 189, 189);
+    box-shadow: 5px 5px 25px 0px ;
+    
+    /*transform: scale(1.5);*/
+    
+}
+.fb:hover{
+    width: 4%;
+    color: rgb(71, 71, 148);
+    box-shadow: 0px 10px 15px 0px ;
+    
+}
+.insta:hover{
+    width: 4%;
+    color: rgb(163, 122, 157);
+    box-shadow: 0px 10px 15px 0px ;
+    
+}
+.whats:hover{
+    width: 4%;
+    color: rgb(84, 120, 49);
+    box-shadow: 0px 10px 15px 0px ;
+    
+}
+
