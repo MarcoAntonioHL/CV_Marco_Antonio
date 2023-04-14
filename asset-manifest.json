@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PaginaOficial_Marco_Antonio/static/css/main.8a50cdf2.css",
+    "main.js": "/PaginaOficial_Marco_Antonio/static/js/main.a5050542.js",
+    "static/js/787.69c1b68f.chunk.js": "/PaginaOficial_Marco_Antonio/static/js/787.69c1b68f.chunk.js",
+    "static/media/fondoInterio.jpeg": "/PaginaOficial_Marco_Antonio/static/media/fondoInterio.653291c6b7d5800e0598.jpeg",
+    "static/media/fondoInterior2.jpeg": "/PaginaOficial_Marco_Antonio/static/media/fondoInterior2.70f21df3c497ddd4ac64.jpeg",
+    "index.html": "/PaginaOficial_Marco_Antonio/index.html",
+    "main.8a50cdf2.css.map": "/PaginaOficial_Marco_Antonio/static/css/main.8a50cdf2.css.map",
+    "main.a5050542.js.map": "/PaginaOficial_Marco_Antonio/static/js/main.a5050542.js.map",
+    "787.69c1b68f.chunk.js.map": "/PaginaOficial_Marco_Antonio/static/js/787.69c1b68f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a50cdf2.css",
+    "static/js/main.a5050542.js"
+  ]
+}
