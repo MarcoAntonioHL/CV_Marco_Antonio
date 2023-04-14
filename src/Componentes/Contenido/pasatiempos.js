@@ -7,8 +7,18 @@ function Pasatiempo(){
             <h2 className="titulo">PASATIEMPOS</h2>
                 <div className="letrasContenido">
                     <p>
-                        Basketball,Football,Musica
+                        Lectura
                     </p>
+                    <p>
+                        Deporte
+                    </p>
+                    <p>
+                        Musica
+                    </p>
+                    <p>
+                        Arte
+                    </p>
+                    
                 </div>
         </div>
     </>

@@ -7,7 +7,7 @@ import Formacion from './Componentes/Contenido/Formacion';
 import Aptitudes from './Componentes/Contenido/Aptitudes';
 import Pasatiempo from './Componentes/Contenido/pasatiempos';
 import Contactos from './Componentes/Contenido/Contactos';
-
+import PiePagina from './Componentes/Contenido/PiePagina';
 function App() {
   return (
     <div className="App" >
@@ -17,13 +17,11 @@ function App() {
       <div className='fondo3'></div>
       <Sobremi></Sobremi>
       <Experiencias></Experiencias>
-      
       <Formacion></Formacion>
       <Aptitudes></Aptitudes>
-    
       <Pasatiempo></Pasatiempo>
-      <Contactos></Contactos>
-      
+      <PiePagina></PiePagina>
+      {/*<Contactos></Contactos>*/}
     </div>
   );
 }

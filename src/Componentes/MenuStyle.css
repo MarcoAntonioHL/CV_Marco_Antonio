@@ -32,3 +32,11 @@ nav ul li:hover{
     float: left;
 }
 
+@media screen and (max-width: 600px) {
+    
+    nav a:first-child {
+        display: block;
+    }
+    
+}
+
