@@ -17,7 +17,7 @@ export function Presentacion(){
         
         <div className="contenedorPresentacion">
             <div id="ParteIzquierda">
-                <img src="images/Me.jpeg" style={{width:"100%"}}></img>
+                <img src="images/perfil.png" style={{width:"100%"}}></img>
             </div>
             <div id="ParteDerecha">
                 <p>Marco Antonio Huaman Lonconi</p>
