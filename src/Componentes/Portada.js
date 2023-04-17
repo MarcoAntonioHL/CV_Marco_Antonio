@@ -12,8 +12,8 @@ import Cv from "./Contenido/Curriculum";
 function Portada() {
   return (
     <div id="ContenedorPortada">
-      <Menu></Menu>
       
+      <MenuDinamico></MenuDinamico>
       <div
         className="ImgCabecera"
         style={{ backgroundImage: "url(/images/fondo2.jpg)" }}

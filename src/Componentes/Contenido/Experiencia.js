@@ -12,8 +12,8 @@ function Experiencias(){
                         noviembre 2019-Febrero 2020<br></br>
                         Desarrollador
                         -uso de erramientas de desarrollo web
-
                     </p>
+                    
                 </div>
             </div>
         </div>

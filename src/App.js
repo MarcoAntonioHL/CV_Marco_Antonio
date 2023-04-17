@@ -6,7 +6,7 @@ import Experiencias from './Componentes/Contenido/Experiencia';
 import Formacion from './Componentes/Contenido/Formacion';
 import Aptitudes from './Componentes/Contenido/Aptitudes';
 import Pasatiempo from './Componentes/Contenido/pasatiempos';
-import Contactos from './Componentes/Contenido/Contactos';
+
 import PiePagina from './Componentes/Contenido/PiePagina';
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Aptitudes></Aptitudes>
       <Pasatiempo></Pasatiempo>
       <PiePagina></PiePagina>
-      {/*<Contactos></Contactos>*/}
+      
     </div>
   );
 }

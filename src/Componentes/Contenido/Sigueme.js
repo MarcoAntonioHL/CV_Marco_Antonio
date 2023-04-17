@@ -8,7 +8,6 @@ export function Sigueme(){
             <div className="Contactos" >
             
             <a href="https://github.com/MarcoAntonioHL">
-                <GitHubIcon></GitHubIcon>
                 <img src="images/github.png" className="git"></img>
             </a>
             

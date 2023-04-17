@@ -17,10 +17,10 @@ function Contactos(){
                 <h2 className="titulo">CONTACTOS</h2>
                 <div className="letrasContenido">
                     <p className="Correo">
-                        {Datos.correo}
+                        Correo:<br></br>{Datos.correo}
                     </p>
                     <p className="celular">
-                        {Datos.telefono}
+                        Telefono:<br></br>{Datos.telefono}
                     </p>
                     <div>
                             <p>SIGUEME</p>

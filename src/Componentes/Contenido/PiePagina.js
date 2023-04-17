@@ -26,9 +26,9 @@ function PiePagina(){
                     <a href="https://www.instagram.com/marcohlantonio/" style={{color:"black",margin:"10px"}}><InstagramIcon></InstagramIcon></a>
                     <a ><WhatsAppIcon></WhatsAppIcon></a>
             </div>
-            <p>
-                <p><h6>2023 Creado por Marco Antonio Huaman Lonconi</h6></p>
-            </p>
+            <div>
+                <div><h6>2023 Creado por Marco Antonio Huaman Lonconi</h6></div>
+            </div>
         
 
         </div>
