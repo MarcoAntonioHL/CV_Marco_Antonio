@@ -22,15 +22,15 @@ export default BurguerMenu;
 const Contenedor=styled.div`
 label{
     display:flex;
-     flex-direction:column;
-     width:70px;
-     cursor:pointer;
+    flex-direction:column;
+    width:60px;
+    cursor:pointer;
    }
    
    label span{
      background: #fff;
      border-radius:10px;
-     height:7px;
+     height:6px;
      margin: 7px 0;
      transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
    

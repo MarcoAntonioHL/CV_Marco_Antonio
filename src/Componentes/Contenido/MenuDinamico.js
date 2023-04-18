@@ -50,19 +50,19 @@ export default MenuDinamico;
 //despues de estilos podemos poner cualquier elemento html
 const MenuContainer=estilos.nav`
     h2{
-        font-weight:400;
+        font-weight:350;
         color:white;
         span{
             font-weight:bold;
         }
     }
     
+    width:100%;
     position:fixed;
-    padding:.4rem;
+    padding:.1rem;
     background-color:#335;
     display:flex;
-    align-items:center;
-    justyfy-content:space-between;
+    justify-content:space-between;
     
     .links{
         position:absolute;
@@ -70,10 +70,11 @@ const MenuContainer=estilos.nav`
         left:-2000px;
         margin-left:auto;
         margin-rigth:auto;
+        
         text-align:center;
         li a{
             color:white;
-            font-size:1.5rem;
+            font-size:1rem;
             display:block;
         }
         @media(min-width:768px){
@@ -102,6 +103,7 @@ const MenuContainer=estilos.nav`
     }
     
     .burger{
+        
         @media(min-width:768px){
             display:none;
         }

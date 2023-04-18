@@ -1,6 +1,7 @@
-import Portada from './Componentes/Portada';
+
 import './App.css';
-//import { Foto } from './Componentes/FotoPortada';
+
+import Portada from './Componentes/Portada';
 import Sobremi from './Componentes/Contenido/AcercaDe';
 import Experiencias from './Componentes/Contenido/Experiencia';
 import Formacion from './Componentes/Contenido/Formacion';

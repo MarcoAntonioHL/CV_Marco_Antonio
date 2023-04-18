@@ -1,15 +1,7 @@
+
 #Datos{
     text-align: left;
 }
-
-
-#me{
-    background-color:rgba(0, 0, 255, 0.287);
-    width: 40%;
-    padding:15%;
-    
-}
-
 
 .contenedorMe,.contenedorExperiencia, .contenedorAptitudes,.contenedorContacto,.contenedorFormacion{
     display: flex;
@@ -18,24 +10,40 @@
     margin-bottom: 10%;
     
 }
-#experiencia ,#contacto,#aptitudes,#formacion{
+#me,#experiencia ,#contacto,#aptitudes,#formacion{
     background-color:rgba(0, 0, 253, 0.2) ;
     width: 40%;
-    padding: 10%;
+    padding: 15%;
 }
+
 
 /*ESTILOS DE LETRAS*/
 .titulo{
     font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
-    font-size: 35px;
-    color: rgba(101, 101, 238, 0.7);
+    font-size: 20px;
+    color: rgba(17, 17, 99, 0.658);
     -webkit-moz-font-feature-settings: "dlig","ss01";
+    @media(min-width:600px) {
+        font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+        font-size: 35px;
+        color: rgba(101, 101, 238, 0.7);
+        -webkit-moz-font-feature-settings: "dlig","ss01";
+        
+    }
 }
 .letrasContenido{
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
     color: azure;
-    font-size:20px ;
+    font-size:14px ;
     line-height:150%;
+    @media(min-width:600px) {
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+        color: azure;
+        font-size:20px ;
+        line-height:150%;
+        
+    }
+    
 }
 
 

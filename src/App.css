@@ -1,4 +1,5 @@
 .App {
+  display: block;
   text-align: center;
   background-color: rgba(79, 79, 121, 0.557);
 }
