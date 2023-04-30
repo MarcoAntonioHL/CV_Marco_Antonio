@@ -56,7 +56,7 @@ function Aptitudes(){
                     <div>javaScript<Funcionamiento valor={50}></Funcionamiento></div>
                     <div>Python<Funcionamiento valor={60}></Funcionamiento></div>
                     <div>React<Funcionamiento valor={40}></Funcionamiento></div>
-                    <div>Angular<Funcionamiento valor={20}></Funcionamiento></div>
+                    {/*<div>Angular<Funcionamiento valor={20}></Funcionamiento></div>*/}
                     <div>sqlServer<Funcionamiento valor={40}></Funcionamiento></div>
                     <div>Django<Funcionamiento valor={40}></Funcionamiento></div>
                     <h3>IDIOMAS</h3>
